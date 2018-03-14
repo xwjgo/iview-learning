@@ -6,14 +6,14 @@
           v-model="user.username"
           placeholder="用户名/手机号码/邮箱"
           size="large"
-        ></Input>
+        />
       </Form-item>
       <Form-item>
         <Input
           v-model="user.password"
           placeholder="密码"
           size="large"
-        ></Input>
+        />
       </Form-item>
     </Form>
     <div class="login-bottom-row">
